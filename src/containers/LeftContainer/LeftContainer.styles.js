@@ -5,15 +5,15 @@ export const Container = styled.div`
   flex-direction: column;
   width: 20%;
   background-color: #fafafa;
-  margin-left: 25px;
+  padding-left: 25px;
   padding-top: 30px;
-  height: 100vh;
+  height: 156vh;
 `;
 
 export const OptionContainer = styled.div`
   display: flex;
-  height: 40px;
-  margin-left: 10px;
+  height: 50px;
+  margin-left: 20px;
   align-items: center;
 
   h6 {

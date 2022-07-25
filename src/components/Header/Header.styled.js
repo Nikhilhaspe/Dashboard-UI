@@ -49,4 +49,6 @@ export const Profile = styled.div`
 export const UserDetails = styled.div`
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
 `;
