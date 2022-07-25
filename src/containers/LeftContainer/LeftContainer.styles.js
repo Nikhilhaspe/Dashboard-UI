@@ -6,7 +6,8 @@ export const Container = styled.div`
   width: 20%;
   background-color: #fafafa;
   margin-left: 25px;
-  padding-top: 20px;
+  padding-top: 30px;
+  height: 100vh;
 `;
 
 export const OptionContainer = styled.div`
