@@ -11,6 +11,8 @@ import {
   Container,
   OptionContainer,
   PromotionsContainer,
+  Selected,
+  Alert,
 } from "./LeftContainer.styles";
 
 const LeftContainer = () => {
@@ -18,7 +20,8 @@ const LeftContainer = () => {
     <Container>
       <OptionContainer>
         <DashboardIcon className="blue" />
-        <h6>Dashboard</h6>
+        <h6 style={{ color: "#14a9f9" }}>Dashboard</h6>
+        <Selected />
       </OptionContainer>
       <OptionContainer>
         <DescriptionIcon />
@@ -31,10 +34,12 @@ const LeftContainer = () => {
       <OptionContainer>
         <SendIcon />
         <h6>Messages</h6>
+        <Alert>5</Alert>
       </OptionContainer>
       <OptionContainer>
         <NotificationsActiveIcon />
         <h6>Notifications</h6>
+        <Alert>5</Alert>
       </OptionContainer>
       <OptionContainer>
         <CallIcon />

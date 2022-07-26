@@ -21,10 +21,10 @@ const MiddleContainer = () => {
         <IconsDiv>
           <div className="first">
             <span>Filter</span>
-            <FilterAltIcon style={{ fontSize: "35px" }} />
+            <FilterAltIcon style={{ fontSize: "25px" }} />
           </div>
           <div className="second">
-            <MoreVertIcon style={{ fontSize: "35px" }} />
+            <MoreVertIcon style={{ fontSize: "25px" }} />
           </div>
         </IconsDiv>
       </Header>

@@ -30,8 +30,10 @@ export const IconsDiv = styled.div`
     align-items: center;
     border: 1px solid gray;
     border-radius: 4px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid #ece9f1;
+    font-size: 14px;
 
     span {
       margin-right: 10px;
@@ -39,7 +41,6 @@ export const IconsDiv = styled.div`
 
     &:hover {
       cursor: pointer;
-      border: 2px solid lightgray;
     }
   }
 
@@ -49,13 +50,13 @@ export const IconsDiv = styled.div`
     align-items: center;
     border: 1px solid gray;
     border-radius: 4px;
-    padding: 5px 5px;
+    padding: 5px 10px;
     margin-left: 10px;
+    border: 2px solid #ece9f1;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     &:hover {
       cursor: pointer;
-      border: 2px solid lightgray;
     }
   }
 `;
